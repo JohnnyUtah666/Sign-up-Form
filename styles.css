@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+#picture {
+    width: 33vw;
+    height: 100vh;
+}
+
