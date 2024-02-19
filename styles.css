@@ -1,3 +1,8 @@
+@font-face{
+    font-family: "Norse-Bold";
+    src: url();
+}
+
 * {
     margin: 0;
     
@@ -33,3 +38,35 @@ body {
 span {
     color: white;
 }
+
+.text {
+    height: 33vh;
+    background-color: #f8f8f8;
+}
+
+.form {
+    height: 33vh;
+    background-color: #f8f8f8;
+}
+
+.logIn {
+    height: 33vh;
+    background-color: #f8f8f8;
+}
+
+#formHeader {
+    background-color: white;
+}
+
+.firstRow {
+    background-color: white;
+}
+
+.secondRow {
+    background-color: white;
+}
+
+.thirdRow {
+    background-color: white;
+}
+
