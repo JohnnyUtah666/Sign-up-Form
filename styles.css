@@ -56,9 +56,17 @@ span {
     line-height: 24px;
 }
 
+#formHeader {
+    font-family: sans-serif;
+    margin: 10px 30px;
+    background-color: #f8f8f8;
+}
+
+
+
 .form {
     height: 33vh;
-    background-color: #f8f8f8;
+    background-color: white;
 }
 
 .logIn {
@@ -106,3 +114,4 @@ span {
     margin-left: 30px;
     
 }
+
