@@ -82,14 +82,24 @@ span {
 
 .firstRow {
     background-color: white;
+    display: flex;
+    
+}
+
+.inputDiv {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
 }
 
 .secondRow {
     background-color: white;
+    display: flex;
 }
 
 .thirdRow {
     background-color: white;
+    display: flex;
 }
 
 
@@ -115,3 +125,6 @@ span {
     
 }
 
+input {
+    margin: 3px;
+}
