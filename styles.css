@@ -80,7 +80,9 @@ span {
     background-color: white;
 }
 
-.firstRow {
+.firstRow,
+.secondRow,
+.thirdRow {
     background-color: white;
     display: flex;
     
@@ -91,18 +93,6 @@ span {
     flex-direction: column;
     width: 250px;
 }
-
-.secondRow {
-    background-color: white;
-    display: flex;
-}
-
-.thirdRow {
-    background-color: white;
-    display: flex;
-}
-
-
 
 
 .secondPara {
