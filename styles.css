@@ -85,6 +85,7 @@ span {
 .thirdRow {
     background-color: white;
     display: flex;
+    margin-left: 35px;
     
 }
 
@@ -92,6 +93,7 @@ span {
     display: flex;
     flex-direction: column;
     width: 250px;
+    margin-right: 40px;
 }
 
 
