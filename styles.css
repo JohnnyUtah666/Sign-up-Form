@@ -44,6 +44,8 @@ body {
 span {
     font-family: "Norse-Bold";
     color: white;
+    font-size: 10vh;
+    padding-top: 2vh;
 }
 
 
@@ -131,14 +133,15 @@ label {
     font-family: sans-serif;
 }
 
-input:invalid {
-    border-color: red;
-}
 
 input:focus {
     border-color: lightblue;
     box-shadow: 1px 1px 5px darkgray;
 
+}
+
+input:invalid {
+    border-color: red;
 }
 
 .mainForm {
