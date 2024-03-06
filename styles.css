@@ -1,6 +1,6 @@
 @font-face{
     font-family: "Norse-Bold";
-    src: url();
+    src: url(Norse-Bold.otf);
 }
 
 * {
@@ -42,9 +42,8 @@ body {
 }
 
 span {
+    font-family: "Norse-Bold";
     color: white;
-    
-    
 }
 
 
