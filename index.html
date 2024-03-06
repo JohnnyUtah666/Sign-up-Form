@@ -20,42 +20,44 @@
                 <p class="secondPara">Sign up <em>now</em> to get started.</p>
                 <p class="thirdPara">You <em>know</em> you want to.</p>
             </div>
-            <div class="form">
+            <div class="formContainer">
                 <form action="" method="get" class="account-form">
-                    <h1 id="formHeader">Let's do this!</h1>
+                    <div class="mainForm">
+                    <h2 id="formHeader">Let's do this!</h2>
                     <div class="firstRow">
                         <div class="inputDiv">
                             <label for="firstName">First Name</label>
-                            <input id="firstName" name="firstName" type="text"/>
+                            <input id="firstName" name="firstName" type="text" required/>
                         </div>
 
                         <div class="inputDiv">
                             <label for="lastName">Last Name</label>
-                            <input id="lastName" name="lastName" type="text"/>
+                            <input id="lastName" name="lastName" type="text" required/>
                         </div>
                     </div>
                     <div class="secondRow">
                         <div class="inputDiv">
                             <label for="email">Email</label>
-                            <input id="email" name="email" type="email" placeholder="whatever@something.com"/>
+                            <input id="email" name="email" type="email" placeholder="whatever@something.com" required/>
                         </div>
 
                         <div class="inputDiv">
                             <label for="phone">Phone Number</label>
-                            <input id="phone" name="phone" type="tel"/>
+                            <input id="phone" name="phone" type="tel" required/>
                         </div>
                     </div>
                     <div class="thirdRow">
                         <div class="inputDiv">
                             <label for="password">Password</label>
-                            <input id="password" name="password" type="password"/>
+                            <input id="password" name="password" type="password" required/>
                         </div>
 
                         <div class="inputDiv">
                             <label for="confirmPassword">Confirm Password</label>
-                            <input id="confirmPassword" name="confirmPassword" type="password"/>
+                            <input id="confirmPassword" name="confirmPassword" type="password" required/>
                         </div>
 
+                    </div>
                     </div>
                     <div id="buttonRow">
                         <button id="theButton">Create Account</button>
