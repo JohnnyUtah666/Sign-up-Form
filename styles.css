@@ -28,8 +28,8 @@ body {
 .banner {
     display: flex;
     justify-content: center;
-    background-color: black;
-    opacity: 0.55;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.55);
     position: absolute;
     top: 160px;
     height: 15vh;
@@ -38,11 +38,13 @@ body {
 
 #logo {
  padding: 4px;
-
+ max-height: 14vh;
 }
 
 span {
     color: white;
+    
+    
 }
 
 
