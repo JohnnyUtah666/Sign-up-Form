@@ -13,9 +13,7 @@ html {
 
 body {
     display: flex;
-    flex-direction: row;
-   
-    
+    flex-direction: row; 
 }
 
 #picture {
@@ -148,3 +146,6 @@ input:invalid {
     background-color: white;
 }
 
+body {
+    height: 100vh;
+}
