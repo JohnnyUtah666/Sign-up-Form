@@ -29,7 +29,7 @@ body {
     align-items: center;
     background: rgba(0, 0, 0, 0.55);
     position: absolute;
-    top: 160px;
+    top: 25vh;
     height: 15vh;
     width: 33vw;
 }
@@ -52,7 +52,7 @@ span {
     font-family: sans-serif;
     font-size: 19px;
     font-weight: 550;
-    padding: 35px;
+    padding: 6vh;
     width: 67vw;
     display: flex;
     flex-direction: column;
@@ -62,8 +62,8 @@ span {
 
 #formHeader {
     font-family: sans-serif;
-    margin: 10px 30px 10px 30px;
-    padding-top: 15px;
+    margin: 2vh 6vh 2vh 6vh;
+    padding-top: 3vh;
   
 }
 
@@ -84,28 +84,28 @@ span {
 .secondRow,
 .thirdRow {
     display: flex;
-    margin-left: 35px;
+    margin-left: 6vh;
     background-color: white;
 }
 
 .thirdRow {
-    padding-bottom: 15px;
+    padding-bottom: 3vh;
 }
 
 .inputDiv {
     display: flex;
     flex-direction: column;
-    width: 250px;
+    width: 50vh;
     margin-right: 40px;
 }
 
 
 .secondPara {
-    margin-bottom: 25px;
+    margin-bottom: 5vh;
 }
 
 .thirdPara {
-    margin-bottom: 25px;
+    margin-bottom: 5vh;
 }
 
 #theButton {
@@ -115,13 +115,13 @@ span {
     width: 150px;
     border-radius: 3px;
     border-style: none;
-    margin-top: 20px;
-    margin-left: 30px;
+    margin-top: 4vh;
+    margin-left: 6vh;
     
 }
 
 input {
-    margin: 3px 3px 10px 3px;
+    margin: 3px 3px 2vh 3px;
     border-radius: 5px;
     border: solid #e5e7eb;
     font-family: sans-serif;
