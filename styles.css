@@ -133,14 +133,13 @@ label {
     font-family: sans-serif;
 }
 
-
 input:focus {
     border-color: lightblue;
     box-shadow: 1px 1px 5px darkgray;
 
 }
 
-input:invalid {
+input:user-invalid {
     border-color: red;
 }
 
