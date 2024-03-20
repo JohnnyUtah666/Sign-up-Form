@@ -44,19 +44,20 @@
 
                         <div class="inputDiv">
                             <label for="phone">Phone Number (Optional)</label>
-                            <input id="phone" name="phone" type="tel"/>
+                            <input id="phone" name="phone" type="tel" />
                         </div>
                     </div>
                     <div class="thirdRow">
                         <div class="inputDiv">
                             <label for="password">Password*</label>
-                            <input id="password" name="password" type="password" required/>
+                            <input id="password" name="password" type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required/>
                         </div>
 
                         <div class="inputDiv">
                             <label for="confirmPassword">Confirm Password*</label>
                             <input id="confirmPassword" name="confirmPassword" type="password" required/>
                         </div>
+                        <div class="match">""</div>
 
                     </div>
                     </div>
@@ -70,5 +71,6 @@
             </div>
 
         </div>
+        <script src="script.js"></script>
 </body>
 </html>
